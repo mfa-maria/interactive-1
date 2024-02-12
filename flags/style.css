@@ -1,0 +1,205 @@
+/*index.html*/
+
+
+
+	/*colombia*/
+
+.colombia div{
+	margin:0;
+	padding:0;
+	width:100vw;
+
+}
+.colombia div.first{
+	background-color:#FCD116;
+	height: 50vh;
+}
+.colombia div.second{
+	background-color:#003893;
+	height: 25vh;
+}
+.colombia div.third{
+	background-color:#CE1126;
+	height: 25vh;
+}
+
+	/*Palau*/
+.Palau div{
+	width:100vw;
+	height:100vh;
+}
+.Palaublock {
+	background-color:#00BFFF;
+	height: 100vh;
+	width:100vw;
+}
+.circle {
+	border:30px solid #FCD116;
+	border-radius: 50%;
+	padding: 200px;
+	z-index: 10;
+	position: absolute;
+  	top: 15vh;
+  	left: 25vw;
+  	background-color:#FCD116;
+}
+	
+	/*madagascar*/
+
+.madagascar div {
+	margin:0;
+	padding:0;
+
+}
+
+.madagascar div.one {
+    background-color: #FFFFFF;
+    width: 25vw;
+    height: 100vh;
+    position:fixed;
+    top:0;
+    bottom:0;
+}
+
+.madagascar div.two {
+	background-color: #FF0000;
+	width:100vw;
+	height:50vh;
+}
+
+.madagascar div.three{
+	background-color: #006400;
+	height:50vh;
+	width:100vw;
+}
+	
+
+  	
+/*belgium*/
+
+.belgium{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height:100vh;
+}
+
+.belgium div.first{
+	background-color:#000000;
+    width: 100vw;
+    height: 100vh;
+    float: left;
+
+}
+
+.belgium div.second {
+    background-color: #FFD700;
+    width: 35vw;
+	height:100vh;
+	position:absolute;
+	left: 60vh;
+	z-index:1;
+    
+  
+}
+
+.belgium div.third {
+    background-color: #FF0000;
+    width: 35vw;
+	height:100vh;
+	position:absolute;
+	left: 120vh;
+	z-index:1;
+   
+    
+}
+
+
+/*sweden*/
+
+.sweden div{
+	margin: 0;
+	padding:0;
+	width: 100vw;
+	height: 100vh;
+
+}
+
+.sweden div.first{
+	background-color:#FFFF00;
+	width: 10vw;
+	height: 100vh;
+	position: absolute;
+	top: 1vh;
+	right:75vw;
+	z-index:1;
+}
+
+.sweden div.blue{
+	background-color:#4682B4;
+	width: 100vw;
+	height: 100vh;
+}
+
+
+
+
+.sweden div.second{
+	background-color:#FFFF00;
+	width: 100vw;
+	height: 15vh;
+	position: absolute;
+	bottom: 45vh;
+	z-index:1;
+
+}
+
+/*tonga*/
+
+.tonga div{
+	margin:0;
+	padding:0;
+
+
+}
+.tonga div.red{
+	background-color:#FF0000;
+	width:100vw;
+	height:100vh;
+}
+
+.tonga div.white{
+	background-color: #FFFFFF;
+	width: 30vw;
+	height: 40vh;
+	position: absolute;
+	top: 1vh;
+	z-index:1;
+}
+.tonga div.onered{
+	background-color:#FF0000;
+	width: 10vw;
+	height: 30vh;
+	position: absolute;
+	top: 5vh;
+	left: 10vw;
+	z-index:2;
+}
+
+.tonga div.twored{
+	background-color:#FF0000;
+	width: 30vw;
+	height: 20vh;
+	position: absolute;
+	left: 1vw;
+	top: 5vh;
+	z-index:3;
+}
+
+
+
+
+
+
+
+
