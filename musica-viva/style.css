@@ -1,0 +1,425 @@
+/*index.html style*/
+
+body{
+	font-family:"Helvetica Neue","Times New Roman",Arial;
+	margin:0;
+	padding:0;
+}
+
+/*one.html*/
+.one div.left{
+	width: 30vw;
+    height: 300vh;
+    background: #3CB371;
+
+}
+
+
+.para-left{
+	color: black;
+    font-weight: bold;
+    line-height: 1em;
+    font-size: 18px;
+    position: absolute;
+    bottom: -90vh;
+    left: 5vw;
+    max-height: 748vh;
+
+}
+.para-right{
+	color: black;
+    font-weight: bold;
+    line-height: 1em;
+    font-size: 18px;
+    position: absolute;
+    /* bottom: 0vh; */
+    left: 5vw;
+    top: 155.75vh;
+    max-height: 748vh;
+
+}
+.one div.middle{
+	width: 40vw;
+    height: 300vh;
+    background: #3CB371;
+    position: absolute;
+    top: 0vh;
+    right: 30vw;
+    color: white;
+    text-align: center;
+    font-size: 300px;
+    line-height: 1em;
+
+}
+.one div.right{
+	width: 30vw;
+    height: 300vh;
+    background: #3CB371;
+    position: absolute;
+    top: 0vh;
+    right: 0vw;
+
+}
+
+/*poster three styles*/
+
+
+.three .bottom-left{
+	font-size: 36px;
+    font-weight: bold;
+    line-height: 1em;
+    position: absolute;
+    bottom: 1vh;
+    left: 2vw;
+
+}
+.three .bottom-right{
+	font-size: 13px;
+    font-weight: 900;
+    line-height: 1em;
+    position: absolute;
+    bottom: 0vh;
+    left: 70vw;
+
+}
+	
+
+
+
+.three .bottom-middle{
+	font-size: 13px;
+    font-weight: 900;
+    line-height: 1.5em;
+    position: absolute;
+    bottom: 1vh;
+    left: 50vw;
+}
+.three .top-left{
+	font-size: 36px;
+    font-weight: bold;
+    background-color: #d4d4c4;
+    margin:0;
+    padding:0;
+
+	
+}
+
+
+
+.three div.topbox{
+	height: 6vw;
+    width: 6vw;
+    background: gray;
+    position: absolute;
+    right: 40vw;
+    top: 10vh;
+
+}
+.three div.leftblue{
+	height: 6vw;
+    width: 6vw;
+    background: blue;
+    position: absolute;
+    bottom: 60vh;
+    left: 30vw;
+
+}
+.three div.leftblack{
+	height: 6vw;
+    width: 6vw;
+    background: black;
+    position: absolute;
+    bottom: 60vh;
+    left: 36vw;
+
+}
+.three div.redmiddle{
+	height: 6vw;
+    width: 6vw;
+    background: red;
+    position: absolute;
+    bottom: 60vh;
+    right: 40vw;
+
+}
+.three div.blackright{
+	height: 6vw;
+    width: 6vw;
+    background: black;
+    position: absolute;
+    bottom: 60vh;
+    right: 29vw;
+
+}
+.three div.leftyellow{
+	height: 6vw;
+    width: 6vw;
+    background: yellowgreen;
+    position: absolute;
+    bottom: 60vh;
+    right: 15vw;
+
+}
+
+
+.three div.bottombox{
+	height: 6vw;
+    width: 6vw;
+    background: grey;
+    position: absolute;
+    bottom: 50vh;
+    right: 40vw;
+
+
+}
+
+.three div.background{
+	width:100vw;
+	height:200vh;
+	background-color: #d4d4c4;
+
+}
+
+/*poster four styles*/
+
+.four .topleft{
+	font-size: 12px;
+    line-height: 1em;
+    position: absolute;
+    left: 65vw;
+
+}
+
+.four .topright{
+	font-size: 13px;
+    line-height: 1em;
+    position: absolute;
+    left: 75vw;
+	
+}
+
+.four div.one{
+	font-size: 24px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    bottom: 75vh;
+    right: 78vw;
+	
+}
+
+.four div.two{
+	font-size: 24px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    bottom: 72vh;
+    right: 65vw;
+	
+}
+
+.four div.three{
+	font-size: 24px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    bottom: 69vh;
+    right: 70vw;
+}
+
+.four div.four{
+ 	font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    position: absolute;
+    bottom: 69vh;
+    right: 2vw;
+}
+
+.four div.five{
+	font-size: 24px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    bottom: 65vh;
+    right: 70vw;
+	
+}
+.four div.six{
+	font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    position: absolute;
+    bottom: 65vh;
+    right: 10vw;
+}
+.four div.seven{
+	font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    position: absolute;
+    bottom: 61vh;
+    right: 3vw;
+}
+.four div.eight{
+	font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    position: absolute;
+    bottom: 58vh;
+    right: 10vw;
+}
+
+	
+.four div.nine{
+	font-size: 24px;
+    font-weight: bold;
+    color: royalblue;
+    position: absolute;
+    bottom: 55vh;
+    right: 63vw;
+
+	
+}
+.four div.ten{
+	font-size: 24px;
+    font-weight: bold;
+    color: royalblue;
+    position: absolute;
+    bottom: 51.5vh;
+    right: 70vw;
+	
+}
+.four div.eleven{
+	font-size: 24px;
+    font-weight: bold;
+    color: royalblue;
+    position: absolute;
+    bottom: 49vh;
+	
+}
+.four div.twelve{
+	font-size: 24px;
+    font-weight: bold;
+    color: royalblue;
+    position: absolute;
+    bottom: 45vh;
+    right: 45vw;
+	
+}
+.four div.thirteen{
+	font-size: 24px;
+    font-weight: bold;
+    color: green;
+    position: absolute;
+    bottom: 45vh;
+    right: 21vw;
+}
+	
+
+.four div.fourteen{
+	font-size: 24px;
+    font-weight: bold;
+    color: green;
+    position: absolute;
+    bottom: 42vh;
+    right: 35vw;
+	
+}
+.four div.fifteen{
+	font-size: 24px;
+    font-weight: bold;
+    color: green;
+    position: absolute;
+    bottom: 42vh;
+    right: 21vw;
+	
+}
+.four div.sixteen{
+	font-size: 24px;
+    font-weight: bold;
+    color: green;
+    position: absolute;
+    bottom: 39vh;
+    right: 35vw;
+	
+}
+.four div.seventeen{
+	font-size: 24px;
+    font-weight: bold;
+    color: gold;
+    position: absolute;
+    bottom: 38vh;
+    right: 75vw;
+	
+}
+.four div.eigtheen{
+	font-size: 24px;
+    font-weight: bold;
+    color: gold;
+    position: absolute;
+    bottom: 35vh;
+    right: 65vw;
+}
+	
+
+
+.four div.nineteen{
+	font-size: 24px;
+    font-weight: bold;
+    color: gold;
+    position: absolute;
+    bottom: 32vh;
+    right: 85.5vw;
+	
+}
+
+
+/*poster 2 styles*/
+
+body{
+	font-family:sans-serif;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+
+.poster2 .row{
+	clear:left;
+}
+
+.poster2 .col{
+	float: left;
+	width: 16.66vw;
+	height: 25vw;
+	text-align: center;
+	font-size: 18vw;
+	line-height:25vw;
+	border; 1px solid;
+	box-sizing: border-box;
+	background: #99003d;
+	color:#00b3b3;
+}
+
+
+
+.poster2 p{
+	font-size: 18px;
+	color:white;
+	line-height: 1;
+	margin: 0;
+}
+
+.poster2 .para-left{
+	position: absolute;
+    left: 44vw;
+    top: 75vw;
+
+}
+.poster2 .para-right{
+	position:absolute;
+	left: 66.64vw;
+	top:75vw;
+}
+
+

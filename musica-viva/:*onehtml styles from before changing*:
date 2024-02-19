@@ -1,0 +1,94 @@
+/*onehtml styles from before changing*/
+
+/*one.html*/
+.one div.{
+	margin:0;
+	padding:0;
+}
+
+.one div.top{
+	font-family:"Helvetica Neue","Times New Roman",Arial;
+	font-size: 200px;
+	color:#FFFFFF;
+	background-color:#006400;
+	position:absolute;
+	bottom: 70vh;
+    right: 35vw;
+}
+.one div.bottom{
+	font-family:"Helvetica Neue","Times New Roman",Arial;
+	font-size: 200px;
+	color:#FFFFFF;
+	background-color:#006400;
+	position:absolute;
+    bottom: 40vh;
+    right: 41vw
+}
+.one div.bottom1{
+	font-family:"Helvetica Neue","Times New Roman",Arial;
+	font-size: 200px;
+	color:#FFFFFF;
+	background-color:#006400;
+	position:absolute;
+    bottom: 12vh;
+    right: 38vw
+}
+
+.one div.line{
+	width: 40vw;
+    height: 0.09vh;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: -20vh;
+    right: 30vw;
+}
+
+.one div.bottom2{
+	font-family:"Helvetica Neue","Times New Roman",Arial;
+	font-size: 200px;
+	color:#FFFFFF;
+	background-color:#006400;
+	position:absolute;
+	bottom: 80vh;
+    right: 42vw;
+}
+
+.one div.bottom3{
+
+}
+
+
+.one div.background{
+	background-color:#006400;
+	width:100vw;
+	height:400vh;
+}
+.one div.left{
+
+}
+.one div.right{
+
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> musica viva </title>
+	<link rel='stylesheet' type="text/css" href='style.css'>
+</head>
+<body class="one"></body>
+	<div class="top">mu</div>
+	<div class="bottom">si</div>
+	<div class="bottom1">ca</div>
+	<div class="line"></div>
+	<div class="bottom2">vi</div>
+	<div class="bottom3">va</div>
+	<div class="background"></div>
+	<div class="left"></div>
+	<div class="right"></div>
+
+</body>
+</html>
