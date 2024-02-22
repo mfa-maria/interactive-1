@@ -4,6 +4,31 @@ body{
 	font-family:"Helvetica Neue","Times New Roman",Arial;
 	margin:0;
 	padding:0;
+
+    
+
+}
+
+.bigfont{
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+ul.no-bullets{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    font-size: 36px;
+    line-height: 1.15em;
+    text-align: center;
+
+ text-decoration: none;
 }
 
 /*one.html*/
