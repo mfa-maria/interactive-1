@@ -1,0 +1,391 @@
+/* google font url*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+/* 2 css reset rules http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*beginning of my own styles*/
+
+body {
+	font-family:"Space Mono",sans-serif;
+	background-color:#40E025;
+	max-width:100%;
+	overflow-x: hidden;
+
+}
+
+
+/*paragraph.section.image.caption page styles*/
+
+section{
+	margin: 2em 0;
+}
+h1{
+	font-size: 30px;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+p{
+	margin-top:1em;
+	margin-bottom: 1em;
+	margin-left:3em;
+	margin-right: 3em;
+}
+
+p:last-child{
+	margin-bottom:0;
+}
+
+a:hover{
+    color:limegreen;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:1em;
+  margin-bottom:1em;
+  width: 50%;
+}
+
+figcaption{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 1em;
+
+}
+
+/*header styles*/
+
+h2,h3,h4,h5,h6,h7,h8{
+  font-size: 20px;
+  margin-top: 1em;
+  margin-left: 1.75em;
+  margin-bottom: 0.5em;
+}
+
+/*grid styles for botany page*/
+
+.flowergrid{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	gap:1em;
+}
+
+/*refrences styles*/
+.references{
+	font-size: 18px;
+	margin-right: 7em;
+	margin-left: 7em;
+}
+
+
+
+
+/*mainpage styles*/
+
+.names{
+    font-size: 144px;
+    position: absolute;
+    bottom: -2vh;
+    right: 36.5vw;
+    rotate: 305deg;
+}
+
+.distribution{
+    font-size: 72px;
+    position: absolute;
+    bottom: -50vh;
+    right: 20vw;
+    rotate: 50deg;
+}
+
+.cultivation{
+    font-size: 96px;
+    position: absolute;
+    bottom: -100vh;
+    right: 35vw;
+    rotate: 298deg;
+}
+
+.culinaryuses{
+    font-size: 88px;
+    position: absolute;
+    bottom: -155vh;
+    right: 15vw;
+    rotate: 45deg;
+
+}
+
+.botany{
+    font-size: 152px;
+    position: absolute;
+    bottom: -210vh;
+    right: 25vw;
+    rotate: 325deg;
+}
+
+.disease{
+    font-size: 120px;
+    position: absolute;
+    bottom: -264vh;
+    right: 27vw;
+    rotate: 50deg;
+}
+
+.refrences{
+    font-size: 88px;
+    position: absolute;
+    bottom: -318vh;
+    right: 29vw;
+    rotate: 295deg;
+}
+
+
+
+
+
+.title {
+    font-size: 184px;
+    letter-spacing: -10px;
+    rotate: 305deg;
+    width: 40vw;
+    height: 25vh;
+    position: absolute;
+    right: 1vw;
+    top: 15vh;
+    z-index: 1;
+}
+
+
+
+/*circle shape styles*/
+.circle1{
+    height: 736px;
+    width: 736px;
+    background-color: #00FF1A;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: -7vw;
+}
+
+.circle2{
+    height: 640px;
+    width: 640px;
+    background-color: #CFF72C;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 30vw;
+    top: 60vh;
+}
+.circle3{
+    height: 496px;
+    width: 496px;
+    background-color: #9BFF38;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 20vw;
+    top: 120vh;
+}
+.circle4{
+    height: 736px;
+    width: 794px;
+    background-color: #00FF1A;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 40vw;
+    top: 160vh;
+}
+
+.circle5{
+    height: 794px;
+    width: 736px;
+    background-color: #CFF72C;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 5vw;
+    top: 220vh;
+}
+
+.circle6{
+	height: 528px;
+    width: 578px;
+    background-color: #9BFF38;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 40vw;
+    top: 290vh;
+}
+
+
+.circle7{
+	height: 794px;
+    width: 831px;
+    background-color: #00FF1A;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 18vw;
+    top: 350vh;
+}
+
+.circle8{
+    height: 525px;
+    width: 528px;
+    background-color: #CFF72C;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 51vw;
+    top: 432vh;
+}
+
+/*bracket top & bottom's*/
+
+.one{
+	font-size: 456px;
+    position: absolute;
+    rotate: 35deg;
+    right: 20vw;
+    bottom:45vh;
+}
+
+ .two{
+    font-size: 456px;
+    position: absolute;
+    rotate: 95deg;
+    right: 20vw;
+    bottom: -355vh;
+    left: 33vw;
+    right: 95vw;
+
+}
+
+.three{
+    font-size: 432px;
+    position: absolute;
+    rotate: 280deg;
+    bottom: -410vh;
+    right: 63vw;
+}
+/*tiny dot on final circle*/
+
+.dotone{
+    font-size: 40px;
+    position: absolute;
+    bottom: -355vh;
+    right: 75vw;
+}
+
+.dottwo{
+    font-size: 40px;
+    position: absolute;
+    bottom: -365vh;
+    right: 80vw;
+}
+
+.dotthree{
+    font-size: 40px;
+    position: absolute;
+    bottom: -375vh;
+    right: 75vw;
+}
+
+.dotfour{
+    font-size: 40px;
+    position: absolute;
+    bottom: -357vh;
+    right: 61vw;
+    rotate: 40deg;
+}
+
+.dotfive{
+    font-size: 40px;
+    position: absolute;
+    bottom: -370vh;
+    right: 56vw;
+    rotate: 40deg;
+}
+
+.dotsix{
+    font-size: 40px;
+    position: absolute;
+    bottom: -378vh;
+    right: 63vw;
+    rotate: 298deg;
+}
+
+
+.title2{
+    font-size: 184px;
+    letter-spacing: -17px;
+    rotate: 305deg;
+    width: 40vw;
+    height: 25vh;
+    position: absolute;
+    right: -5vw;
+    top: 35vh;
+    z-index: 1;
+  
+

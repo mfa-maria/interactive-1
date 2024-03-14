@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>layout sampples for wikzine articles</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<p class="my-google-font"> this is a paragraph, directly under the body element </p>
+	<p> word word word wordword word word wordword word word wordword word word wordword word word wordword word word wordword word word wordword word word wordword word word wordword word word wordword word word word</p>
+	<section>
+		<p> this is a paragraph inside a section element, sections are set to 3em vertical margins with 20% red background color</p>
+		<p> paragraph are set to have 1em bottom margin, except when the paragraph is the last child</p>
+		<p> the default font-family for this body is set as Helvetica or generic san-serif. The browser is using the local font installed on your machine to show the letters</p>
+		<p class="my-google-font"> This text should apper in Madimi One, using the webfont hosted on google fonts</p>
+	</section>
+
+	<section>
+		<p> this is a paragraph in the second section. do you see the 3em spacing between this section and the one above?</p>
+	</section>
+
+	<section class="flex">
+		<div style="background-color:yellow"> I am a flex item ( a div) inside a section set as display flex .</div>
+		<div style="background-color:lightblue; width:200px;"> I am a flex item with text with more text </div>
+		<div style="background-color:lightgreen; align-self:end"> I am a flex item</div>
+	</section>
+
+	<section class="felx-then-wrap-with-gap">
+		<div> Many flexbox item </div>
+		<div> you can set them to wrap</div>
+		<div> then they flow to the next line... </div>
+		<div> ...whenever necessary...</div>
+		<div> like this</div>
+		<div> try changing viewport width </div>
+		<div> these boxes are also using child combiinator selector </div>
+		<div> see css file for more</div>
+	</section>
+
+	<section class="flex-space-between">
+		<div style="background-color:yellow">another neat flexbox trick is that you can...</div>
+		<div style="background-color:lightblue;">...set the flex oiems to syau as far away as possible...</div>
+		<div style="background-color:lightgreen;">...without their context.</div>
+	</section>
+
+	<section class="grid">
+		<div>this is a section set as a dispay:grid with 4 equal columns</div>
+		<div>This sections child elements, nomatter what they are. will be displauues on the grid</div>
+		<div>im a div just like my prious ones</div>
+		<div>im a paragraph and occumpany the same space as dics</div>
+		<div>5</div>
+		<div>5</div>
+		<div>6</div>
+		<div style="grid-column:span 2">im a child div that takes up two columns</div>
+		<div style="grid-column:span 2 / 4">im a child div that starts from vertical grid line 2 and ends at 4</div>
+
+	</section>
+
+	<section class="grid transition">
+		<div>css transitions allows you to change property value from one to another smoothly</div>
+		<div class="transition-width">s</div>
+		<div class="transition-width-height">s</div>
+		<div class="transition-move">s</div>
+		<div class="transition-rotate">s</div>
+		<div class="transition-rotate-3d">s</div>
+		<div>s</div>
+	</section>
+	<section>
+		<div class="ball">
+
+</html>
+
+
