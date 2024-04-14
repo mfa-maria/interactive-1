@@ -1,6 +1,6 @@
 body{
-  margin: 0;
-  background-color:hsl(348, 96%, 42%)
+	margin: 0;
+	background-color:hsl(348, 96%, 42%)
 }
 
 
@@ -11,7 +11,6 @@ body{
   background-color:hsl(350, 73%, 44%);
  /* transition: opacity 5s;*/
   opacity: 1;
- 
  
 }
   
@@ -25,7 +24,6 @@ body{
     
   }
 
-
 .rect {
   float:left;
   width: 20px;
@@ -36,9 +34,8 @@ body{
 }
   
 .rect2 {
-  position:relative;
-  right:-68vw;
-  top:-100vh;
+  position:absolute;
+  right: 0vw;
   width: 20px;
   height: 50px;
   background-color: #000;
@@ -46,10 +43,11 @@ body{
   margin-right: 0;
   z-index: 3;
 }
-
-.clear{
-  clear: both;
-}
   
 
-
+second{
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  
+}

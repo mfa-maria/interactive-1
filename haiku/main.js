@@ -11,8 +11,6 @@ function update(e) {
   let scrollY = window.scrollY;
   let text = "";
   
-  let scrollPercentage = (scrollY / (document.documentElement.scrollHeight - viewportH)) * 100;
-
   if (mouseY < viewportH/2) {
     text = "green with spring"
   }
@@ -21,7 +19,5 @@ function update(e) {
   }
   
   document.getElementById("t").innerText = text;
-  
-  let hue = (scrollPercentage * 2) % 360; // Adjusting the value for the hue
-  document.getElementById("haiku").style.color = "limegreen";
+  document.getElementById("t").style.color = "limegreen" ;
 }
