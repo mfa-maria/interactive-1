@@ -2,6 +2,27 @@
 body{
 	margin:0;
 	padding:0;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 2em;
+
+}
+
+
+ul{
+	list-style: none;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: skyblue;
 }
 
 
@@ -132,9 +153,9 @@ body{
 .sweden div.first{
 	background-color:#FFFF00;
 	width: 10vw;
-	height: 100vh;
+	height: 101vh;
 	position: absolute;
-	top: 1vh;
+	top: -1vh;
 	right:75vw;
 	z-index:1;
 }
@@ -177,7 +198,7 @@ body{
 	width: 30vw;
 	height: 40vh;
 	position: absolute;
-	top: 1vh;
+	top: -1vh;
 	z-index:1;
 }
 .tonga div.onered{

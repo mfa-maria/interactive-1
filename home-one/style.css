@@ -1,0 +1,125 @@
+/* google font url*/
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+/* 2 css reset rules http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body{
+	font-size: 12px;
+	font-family: 'Times New Roman';
+	background: mintcream;
+
+}
+
+a{
+	text-decoration: none;
+	color: #eb80ff;
+}
+
+.text{
+	font-size: 16px;
+	font-family:"Times New Roman";
+	font-weight: normal;
+	margin-top: 5vh;
+	margin-left: 5vw;
+	margin-bottom: 5vh;
+
+}
+
+
+#line-leaves{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40vw;
+	height: 60vh;
+	align-content: center;
+	text-align: center;
+	opacity: 0.5;
+   /*border: dashed #eb80ff;*/
+}
+
+span{
+	font-size: 14px;
+	font-family: "Space Mono", sans-serif;
+}
+
+.border-bottom{
+	display:flex;
+	flex-wrap:wrap;
+	gap:5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20vh;
+	height: 3vh;
+	width:23vw;
+	text-align: center;
+	align-items: center;
+	border: dashed #eb80ff;
+}
+
+.stem-change:hover{
+	color: hotpink;
+	cursor: pointer;
+}
+
+
+//*#line-leaves{
+	width: 515px;
+	height:85px;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}

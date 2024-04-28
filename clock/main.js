@@ -1,82 +1,53 @@
+//loop for the rectangles on the left
+for (i = 0; i < 20; i ++){
+  let element = document.createElement("div");
+  element.classList.add("rect");
+  document.querySelector(".overlayleft").appendChild(element);
+}
 
-  function updateTime() {
+for (i = 0; i < 13; i ++){
+  let element = document.createElement("div");
+  element.classList.add("rect2");
+  document.querySelector(".overlayright").appendChild(element);
+}
+
+
+//function for the change over seconds 
+function updateTime() {
   let d = new Date();
   let sec = d.getSeconds();       
-  let now = sec;
-  console.log (now); 
+  console.log (sec + "sec"); 
   
-  document.querySelector(".backgroundleft").style.opacity =   sec * 0.4 ; 
-  document.querySelector(".backgroundright").style.opacity =   sec * 0.4 ; 
-  document.querySelector(".container").style.opacity =   sec * 0.01 ;
-  document.querySelector(".container2").style.opacity =   sec * 0.01 ;
-  
-  
+  // if the current second is less than 30, then animate backgrounds, don't show overlay yet 
+  // if the current second is more than 30, then animate overlays
 
-
+  if (sec < 30) {
+    // sec ranges from 0-29
+    // opacity to range from 0-1
+    // console.log(sec / 30);
+    document.querySelector(".backgroundleft").style.opacity =   sec / 30; 
+    document.querySelector(".backgroundright").style.opacity =   sec / 30;
+    
+  } else  {
+    // sec ranges from 30-59
+    //opacity to range from 0-0.5
+    // 30/
+    console.log( 15 / sec);
+    document.querySelector(".overlayleft").style.opacity =   15 / sec;
+    document.querySelector(".overlayright").style.opacity =   15 / sec;
   
+    }
 }
+
 
 // run the above function every second
 setInterval(updateTime, 1000);
 
 
-for (i = 0; i<20; i++){
-
-console.log(i * 10);
-let width = 450;
-let margin = 0;
-let element = 
-document.createElement("div");
-element.classList.add("rect");
-const fadeDuration = 1000;
-
-
-  element.style.backgroundColor = "hsl(0, 100%, 25%)";
-
-element.style.width = width + "px";
-//  //3. append the element ot the document 
-document.querySelector(".container").appendChild(element);
-
-let breaker = document.createElement("div");
-breaker.classList.add("clear");
- document.querySelector(".container").appendChild(breaker);
-
- 
-}
-
-setTimeout(function() {
-    let rectangles = document.querySelectorAll('.rect');
-  }, 6000); 
-
-for (j = 0; j<13; j++){
-
-console.log(j * 10);
-let width = 450;
-let margin = 0;
-let element = 
-document.createElement("div");
-element.classList.add("rect2");
-const fadeDuration = 1000;
-
-
-element.style.backgroundColor = "hsl(0, 100%, 50%)";
-
-element.style.width = width + "px";
-
-document.querySelector(".container2").appendChild(element);
-let breaker = document.createElement("div");
-breaker.classList.add("clear");
- document.querySelector(".container2").appendChild(breaker);
-
- 
-}
-
-setTimeout(function() {
-    let rectangles = document.querySelectorAll('.rect2');
-  }, 2000); 
 
 
 
 
-
-
+// setTimeout(function() {
+ //    let rectangles = document.querySelectorAll('.rect');
+ //  }, 6000); 

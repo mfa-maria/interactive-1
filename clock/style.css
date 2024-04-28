@@ -1,58 +1,51 @@
-body{
+body {
   margin: 0;
   background-color:hsl(348, 96%, 42%)
-
-
-
 }
 
-
-.backgroundleft{
-  width: 31vw;
+.backgroundleft {
+  width: 33.33vw;
   height: 100vh;
   position:absolute;
-  background-color:hsl(350, 73%, 44%);
- /* transition: opacity 5s;*/
-  opacity: 1;
-
+ background-color: hsl(348, 83%, 47%);
  
 }
   
 .backgroundright{
-  width: 31vw;
+  width: 33.33vw;
   height: 100vh;
   position: absolute;
   right: 0vw;
-  background-color:hsl(342, 100%, 42%);
-  opacity: 1;
-    
-  }
+ background-color:hsl(342, 100%, 42%);
+ 
+}
 
+.overlayleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40vw;
+
+}
+
+.overlayright {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20vw;
+ 
+}
 
 .rect {
-  float:left;
-  width: 20px;
   height: 20px;
-  background-color: #000;
-  margin: 10px;
-  margin-left: 0;
+  background-color: hsl(345, 87%, 50%);
+  margin: 20px 0;
+  
 }
   
 .rect2 {
-  position:relative;
-  right:-68vw;
-  top:-100vh;
-  min-width: 20px;
   min-height: 50px;
-  background-color: #000;
-  margin: 10px;
-  margin-right: 0;
-  z-index: 3;
+  background-color: hsl(347, 72%, 62%);
+  margin: 10px 0;
+
 }
-
-.clear{
-  clear: both;
-}
-  
-
-

@@ -1,0 +1,263 @@
+/* google font url*/
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+/* 2 css reset rules http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*beginning of my code*/
+
+body{
+	font-family: "Space Mono", "Courier", sans-serif;
+	font-size:14px;
+	
+	/*background-color: hsl(0, 0%, 93%);*/
+}
+
+
+
+
+.greeting{
+	position:relative;
+	left: 50px;
+	top:50px;
+	font-size:11px;
+	
+}
+
+/*#flower{
+	position:relative;
+	left:50px;
+	top: 500px;
+}*/
+
+
+a:link{
+	text-decoration: none;
+
+}
+
+a.hover{
+	color: deeppink;
+}
+
+.middle{
+	font-size:12px;
+	position:absolute;
+	top:50vh;
+	left:5vw;
+}
+
+.bottom{
+	position:absolute;
+	top:90vh;
+	left:1.5vw;
+	display: inline-block;
+	transtion: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+
+.stem-one{
+	position: absolute;
+	top: 88vh;
+	left: 6vw;
+}
+
+.stem-two{
+	position: absolute;
+	top: 86vh;
+	left: 6vw;
+}
+
+.stem-three{
+	position: absolute;
+	top: 84vh;
+	left: 6.5vw;
+}
+
+.stem-four{
+	position: absolute;
+	top: 82vh;
+	left: 7vw;
+}
+
+
+.stem-five{
+	position: absolute;
+	top: 80vh;
+	left: 6.5vw;
+}
+
+.stem-six{
+	position: absolute;
+	top: 78vh;
+	left: 6.5vw;
+	color: blue;
+}
+
+.stem-seven{
+	position: absolute;
+	top: 76vh;
+	left: 7vw;
+}
+
+.stem-eight{
+	position: absolute;
+	top: 74vh;
+	left: 7vw;
+}
+
+.stem-nine{
+	position: absolute;
+	top: 72vh;
+	left: 7vw;
+}
+
+.stem-ten{
+	position: absolute;
+	top: 70vh;
+	left: 7.5vw;
+}
+
+.stem-eleven{
+	position: absolute;
+	top: 68vh;
+	left: 7.5vw;
+}
+
+.stem-twelve{
+	position: absolute;
+	top: 66vh;
+	left: 7.5vw;
+}
+
+.stem-thirteen{
+	position: absolute;
+	top: 64vh;
+	left: 7.5vw;
+
+}
+
+.stem-fourteen{
+	position:absolute;
+	top: 62vh;
+	left: 7.5vw;
+}
+
+.stem-fifteen{
+	position: absolute;
+	top: 60vh;
+	left: 7vw;
+}
+
+.stem-sixteen{
+	position: absolute;
+	top: 58vh;
+	left: 8vw;
+}
+
+.circle-one{
+	position: absolute;
+	top: 57vh;
+	left: 8vw;
+
+}
+
+.circle-two{
+	position: absolute;
+	top: 56vh;
+	left: 8vw;
+}
+
+
+.circle-three{
+	position: absolute;
+	top: 55vh;
+	left: 6.5vw;
+}
+
+.circle-four{
+	position: absolute;
+	top: 53vh;
+	left: 4vw;
+}
+
+.circle-five{
+	position: absolute;
+	top: 55vh;
+	left: 5vw;
+}
+
+.circle-six{
+	position: absolute;
+	top: 51vh;
+	left: 4vw;
+}
+
+
+.sprial-one{
+	position: absolute;
+	top: 53vh;
+	left: 8vw;
+}
+
+.sprial-two{
+	position: absolute;
+	top: 52vh;
+	left: 8vw;
+}
+
+.sprial-three{
+	position: absolute;
+	top: 51vh;
+	left: 8vw;
+}
