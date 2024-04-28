@@ -67,6 +67,11 @@ a{
 	color: #eb80ff;
 }
 
+a:hover{
+	color:skyblue;
+
+}
+
 .text{
 	font-size: 16px;
 	font-family:"Times New Roman";
@@ -114,6 +119,44 @@ span{
 	cursor: pointer;
 }
 
+.left-box{
+	border: dashed #eb80ff;
+	height: 50vh;
+	width:15vw;
+	margin-left: 5vw;
+	position:absolute;
+	top:40vh;
+	font-size: 12px;
+	font-family: Times New Roman;
+	line-height: 2em;
+}
+
+h1{
+	margin-left: 5vw;
+	margin-top: 5vh;
+	font-size: 16px;
+}
+
+h2{
+	margin-left: 5vw;
+	margin-top: 5vh;
+	font-size: 16px;
+	text-align: center;
+}
+
+.short-story-one{
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+}
+p{
+	margin:0 20vw 5vh 20vw;
+	text-indent: 30px;
+	line-height: 2em;
+	font-size: 14px;
+	width: 60vw;
+	
+}
 
 //*#line-leaves{
 	width: 515px;
@@ -122,4 +165,7 @@ span{
 	margin-left: auto;
 	margin-right: auto;
 
-}
+}*/
+
+
+

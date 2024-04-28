@@ -37,7 +37,7 @@ function getRandomCharacter() {
 }
 
 const div = document.querySelector(".text");
-const text = " welcome to my home";
+const text = " welcome to my home -.- ~*";
 
 function textTypingEffect(element, text, i=0){
 	if(i==0){
