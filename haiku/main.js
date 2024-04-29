@@ -13,11 +13,14 @@ function update(e) {
   
   if (mouseY < viewportH/2) {
     text = "green with spring"
+    document.getElementById("t").style.color = "limegreen"
   }
   else {
     text = "yellow with fall";
+    document.getElementById("t").style.color = "yellow" 
+
   }
   
   document.getElementById("t").innerText = text;
-  document.getElementById("t").style.color = "limegreen" ;
+   ;
 }

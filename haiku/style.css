@@ -53,17 +53,14 @@ table {
 body{
 	margin-left: 5vw;
 	margin-top: 5vh;
-	font-size:72px;
+	font-size:100px;
 	font-family: Times New Roman;
 	height: 10vh;
 	font-weight:bold;
-	line-height: 5em;
+	line-height: 3em;
+	background-color: lightgreen;
 }
 
-#haiku{
-	line
-
-}
 
 
 
