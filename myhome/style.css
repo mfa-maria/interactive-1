@@ -129,6 +129,7 @@ span{
 	font-size: 12px;
 	font-family: Times New Roman;
 	line-height: 2em;
+	
 }
 
 h1{
@@ -158,10 +159,7 @@ p{
 	
 }
 
-br{
-	font-size: 16px;
-	
-}
+
 
 //*#line-leaves{
 	width: 515px;
