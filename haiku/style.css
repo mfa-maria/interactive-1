@@ -51,10 +51,13 @@ table {
 /*start of my own code*/
 
 body{
-	font-size:50px;
-	font-family: helvetica;
+	margin-left: 5vw;
+	margin-top: 5vh;
+	font-size:72px;
+	font-family: Times New Roman;
 	height: 10vh;
 	font-weight:bold;
+	line-height: 5em;
 }
 
 #haiku{
